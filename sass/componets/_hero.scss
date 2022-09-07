@@ -5,7 +5,7 @@
     // padding-top: 200px;
     // padding-bottom: 200px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), url(/images/Header-mob.jpg);
+     rgba(47, 48, 58, 0.4)), url(./images/Header-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -15,44 +15,44 @@
 
         
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx){
-        .hero{
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), url(/images/Header-mob@2x.jpg);
-    }
-}
+// @media (min-device-pixel-ratio: 2),
+// (min-resolution: 192dpi),
+// (min-resolution: 2dppx){
+//     .hero{
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+//     rgba(47, 48, 58, 0.4)), url(/images/Header-mob@2x.jpg);
+// }
+// }
 
-@media screen and (min-width:481px){
-    .hero{
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), url(/images/Header-tab.jpg);
-    }
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx){
-        .hero{
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), url(/images/Header-tab@2x.jpg);
-        }
-    }
-}
+// @media screen and (min-width:481px){
+//     .hero{
+//         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+//      rgba(47, 48, 58, 0.4)), url(/images/Header-tab.jpg);
+//     }
+//     @media (min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx){
+//         .hero{
+//         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+//      rgba(47, 48, 58, 0.4)), url(/images/Header-tab@2x.jpg);
+//         }
+//     }
+// }
 
-@media screen and (min-width:1200px) {
-    .hero{
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), url(https://valenster.github.io/Web-Pages-Layout/images/header-pc.jpg);
-    }
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx){
-        .hero{
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), url(/images/headep-pc@2x.jpg);
-        }
-    }
-}
+// @media screen and (min-width:1200px) {
+//     .hero{
+//         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+//      rgba(47, 48, 58, 0.4)), url(https://valenster.github.io/Web-Pages-Layout/images/header-pc.jpg);
+//     }
+//     @media (min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx){
+//         .hero{
+//         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+//      rgba(47, 48, 58, 0.4)), url(/images/headep-pc@2x.jpg);
+//         }
+//     }
+// }
 
     
 .hero__title{
